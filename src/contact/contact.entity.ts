@@ -11,9 +11,6 @@ export class Contact {
   @Column()
   email: string;
 
-  @Column()
-  message: string;
-
   @Column({ default: '' })
-  tel?: string;
+  tel: string;
 }
