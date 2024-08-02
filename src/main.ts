@@ -2,7 +2,7 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
 const corsOptions = {
-  origin: '*',
+  origin: 'https://juanflores-portafolio.netlify.app', //cambiar por * cuando sea a local
   methods: 'POST, GET, PUT, DELETE',
   allowedHeaders: 'Content-Type, Authorization',
 };
